@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FEB3830E18D251EB005F0D00 /* CountriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB3830D18D251EB005F0D00 /* CountriesViewController.m */; };
+		FEB3831118D37067005F0D00 /* UniversitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB3831018D37067005F0D00 /* UniversitiesViewController.m */; };
+		FEB3831418D7978C005F0D00 /* LocalUniversitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB3831318D7978C005F0D00 /* LocalUniversitiesViewController.m */; };
 		FEB54D4E18CA0B31007EB985 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB54D4D18CA0B31007EB985 /* Foundation.framework */; };
 		FEB54D5018CA0B31007EB985 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB54D4F18CA0B31007EB985 /* CoreGraphics.framework */; };
 		FEB54D5218CA0B31007EB985 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB54D5118CA0B31007EB985 /* UIKit.framework */; };
@@ -21,6 +24,17 @@
 		FEB54D6F18CA0B31007EB985 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB54D5118CA0B31007EB985 /* UIKit.framework */; };
 		FEB54D7718CA0B31007EB985 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEB54D7518CA0B31007EB985 /* InfoPlist.strings */; };
 		FEB54D7918CA0B31007EB985 /* LaureateTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB54D7818CA0B31007EB985 /* LaureateTestTests.m */; };
+		FEB54D8418CA0C3E007EB985 /* CoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB54D8318CA0C3E007EB985 /* CoursesViewController.m */; };
+		FEB54D8718CA109F007EB985 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB54D8618CA109F007EB985 /* Course.m */; };
+		FEB54D8B18CA1685007EB985 /* JSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB54D8A18CA1685007EB985 /* JSONParser.m */; };
+		FEB54D8D18CA3F66007EB985 /* courseIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB54D8C18CA3F66007EB985 /* courseIcon.png */; };
+		FEB54D9018CA821F007EB985 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB54D8F18CA821F007EB985 /* DejalActivityView.m */; };
+		FEB54D9218CF7943007EB985 /* laureateLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FEB54D9118CF7943007EB985 /* laureateLogo.png */; };
+		FEB54D9518D111AB007EB985 /* JSONParserUniversity.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB54D9418D111AB007EB985 /* JSONParserUniversity.m */; };
+		FEB54D9918D119A7007EB985 /* University.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB54D9818D119A7007EB985 /* University.m */; };
+		FEB54D9C18D11ED6007EB985 /* UniversityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB54D9B18D11ED6007EB985 /* UniversityViewController.m */; };
+		FEB54DA018D20FA2007EB985 /* RegionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB54D9F18D20FA2007EB985 /* RegionsViewController.m */; };
+		FEE20F1218DA4AF3002775F7 /* SearchUniversityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE20F1118DA4AF3002775F7 /* SearchUniversityViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FEB3830C18D251EB005F0D00 /* CountriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountriesViewController.h; sourceTree = "<group>"; };
+		FEB3830D18D251EB005F0D00 /* CountriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountriesViewController.m; sourceTree = "<group>"; };
+		FEB3830F18D37067005F0D00 /* UniversitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversitiesViewController.h; sourceTree = "<group>"; };
+		FEB3831018D37067005F0D00 /* UniversitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversitiesViewController.m; sourceTree = "<group>"; };
+		FEB3831218D7978C005F0D00 /* LocalUniversitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalUniversitiesViewController.h; sourceTree = "<group>"; };
+		FEB3831318D7978C005F0D00 /* LocalUniversitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalUniversitiesViewController.m; sourceTree = "<group>"; };
 		FEB54D4A18CA0B31007EB985 /* LaureateTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaureateTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB54D4D18CA0B31007EB985 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FEB54D4F18CA0B31007EB985 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +73,27 @@
 		FEB54D7418CA0B31007EB985 /* LaureateTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaureateTestTests-Info.plist"; sourceTree = "<group>"; };
 		FEB54D7618CA0B31007EB985 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FEB54D7818CA0B31007EB985 /* LaureateTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaureateTestTests.m; sourceTree = "<group>"; };
+		FEB54D8218CA0C3E007EB985 /* CoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursesViewController.h; sourceTree = "<group>"; };
+		FEB54D8318CA0C3E007EB985 /* CoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursesViewController.m; sourceTree = "<group>"; };
+		FEB54D8518CA109F007EB985 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Course.h; path = ../Course.h; sourceTree = "<group>"; };
+		FEB54D8618CA109F007EB985 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Course.m; path = ../Course.m; sourceTree = "<group>"; };
+		FEB54D8818CA1380007EB985 /* CoursesParserDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoursesParserDelegate.h; sourceTree = "<group>"; };
+		FEB54D8918CA1685007EB985 /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
+		FEB54D8A18CA1685007EB985 /* JSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParser.m; sourceTree = "<group>"; };
+		FEB54D8C18CA3F66007EB985 /* courseIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = courseIcon.png; sourceTree = "<group>"; };
+		FEB54D8E18CA821F007EB985 /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
+		FEB54D8F18CA821F007EB985 /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
+		FEB54D9118CF7943007EB985 /* laureateLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laureateLogo.png; sourceTree = "<group>"; };
+		FEB54D9318D111AB007EB985 /* JSONParserUniversity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParserUniversity.h; sourceTree = "<group>"; };
+		FEB54D9418D111AB007EB985 /* JSONParserUniversity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONParserUniversity.m; sourceTree = "<group>"; };
+		FEB54D9718D119A7007EB985 /* University.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = University.h; sourceTree = "<group>"; };
+		FEB54D9818D119A7007EB985 /* University.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = University.m; sourceTree = "<group>"; };
+		FEB54D9A18D11ED6007EB985 /* UniversityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversityViewController.h; sourceTree = "<group>"; };
+		FEB54D9B18D11ED6007EB985 /* UniversityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversityViewController.m; sourceTree = "<group>"; };
+		FEB54D9E18D20FA2007EB985 /* RegionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionsViewController.h; sourceTree = "<group>"; };
+		FEB54D9F18D20FA2007EB985 /* RegionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionsViewController.m; sourceTree = "<group>"; };
+		FEE20F1018DA4AF3002775F7 /* SearchUniversityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchUniversityViewController.h; sourceTree = "<group>"; };
+		FEE20F1118DA4AF3002775F7 /* SearchUniversityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchUniversityViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +153,15 @@
 		FEB54D5318CA0B31007EB985 /* LaureateTest */ = {
 			isa = PBXGroup;
 			children = (
+				FEB54D9D18D20EBB007EB985 /* ViewControllers */,
+				FEB54D9618D111B8007EB985 /* Parsers */,
+				FEB54D8E18CA821F007EB985 /* DejalActivityView.h */,
+				FEB54D8F18CA821F007EB985 /* DejalActivityView.m */,
+				FEB54D8818CA1380007EB985 /* CoursesParserDelegate.h */,
+				FEB54D8518CA109F007EB985 /* Course.h */,
+				FEB54D8618CA109F007EB985 /* Course.m */,
+				FEB54D9718D119A7007EB985 /* University.h */,
+				FEB54D9818D119A7007EB985 /* University.m */,
 				FEB54D5C18CA0B31007EB985 /* AppDelegate.h */,
 				FEB54D5D18CA0B31007EB985 /* AppDelegate.m */,
 				FEB54D5F18CA0B31007EB985 /* Main.storyboard */,
@@ -126,10 +176,12 @@
 		FEB54D5418CA0B31007EB985 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FEB54D9118CF7943007EB985 /* laureateLogo.png */,
 				FEB54D5518CA0B31007EB985 /* LaureateTest-Info.plist */,
 				FEB54D5618CA0B31007EB985 /* InfoPlist.strings */,
 				FEB54D5918CA0B31007EB985 /* main.m */,
 				FEB54D5B18CA0B31007EB985 /* LaureateTest-Prefix.pch */,
+				FEB54D8C18CA3F66007EB985 /* courseIcon.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +202,38 @@
 				FEB54D7518CA0B31007EB985 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEB54D9618D111B8007EB985 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				FEB54D8918CA1685007EB985 /* JSONParser.h */,
+				FEB54D8A18CA1685007EB985 /* JSONParser.m */,
+				FEB54D9318D111AB007EB985 /* JSONParserUniversity.h */,
+				FEB54D9418D111AB007EB985 /* JSONParserUniversity.m */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		FEB54D9D18D20EBB007EB985 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FEB54D8218CA0C3E007EB985 /* CoursesViewController.h */,
+				FEB54D8318CA0C3E007EB985 /* CoursesViewController.m */,
+				FEB54D9A18D11ED6007EB985 /* UniversityViewController.h */,
+				FEB54D9B18D11ED6007EB985 /* UniversityViewController.m */,
+				FEB54D9E18D20FA2007EB985 /* RegionsViewController.h */,
+				FEB54D9F18D20FA2007EB985 /* RegionsViewController.m */,
+				FEB3830C18D251EB005F0D00 /* CountriesViewController.h */,
+				FEB3830D18D251EB005F0D00 /* CountriesViewController.m */,
+				FEB3830F18D37067005F0D00 /* UniversitiesViewController.h */,
+				FEB3831018D37067005F0D00 /* UniversitiesViewController.m */,
+				FEB3831218D7978C005F0D00 /* LocalUniversitiesViewController.h */,
+				FEB3831318D7978C005F0D00 /* LocalUniversitiesViewController.m */,
+				FEE20F1018DA4AF3002775F7 /* SearchUniversityViewController.h */,
+				FEE20F1118DA4AF3002775F7 /* SearchUniversityViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +314,9 @@
 			files = (
 				FEB54D6618CA0B31007EB985 /* Images.xcassets in Resources */,
 				FEB54D5818CA0B31007EB985 /* InfoPlist.strings in Resources */,
+				FEB54D9218CF7943007EB985 /* laureateLogo.png in Resources */,
 				FEB54D6118CA0B31007EB985 /* Main.storyboard in Resources */,
+				FEB54D8D18CA3F66007EB985 /* courseIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +335,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEB54D9C18D11ED6007EB985 /* UniversityViewController.m in Sources */,
 				FEB54D6418CA0B31007EB985 /* ViewController.m in Sources */,
+				FEE20F1218DA4AF3002775F7 /* SearchUniversityViewController.m in Sources */,
+				FEB54D8418CA0C3E007EB985 /* CoursesViewController.m in Sources */,
+				FEB3830E18D251EB005F0D00 /* CountriesViewController.m in Sources */,
+				FEB54D9518D111AB007EB985 /* JSONParserUniversity.m in Sources */,
+				FEB54D8B18CA1685007EB985 /* JSONParser.m in Sources */,
 				FEB54D5E18CA0B31007EB985 /* AppDelegate.m in Sources */,
 				FEB54D5A18CA0B31007EB985 /* main.m in Sources */,
+				FEB3831418D7978C005F0D00 /* LocalUniversitiesViewController.m in Sources */,
+				FEB54D8718CA109F007EB985 /* Course.m in Sources */,
+				FEB54DA018D20FA2007EB985 /* RegionsViewController.m in Sources */,
+				FEB54D9918D119A7007EB985 /* University.m in Sources */,
+				FEB54D9018CA821F007EB985 /* DejalActivityView.m in Sources */,
+				FEB3831118D37067005F0D00 /* UniversitiesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +479,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LaureateTest/LaureateTest-Prefix.pch";
 				INFOPLIST_FILE = "LaureateTest/LaureateTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +493,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LaureateTest/LaureateTest-Prefix.pch";
 				INFOPLIST_FILE = "LaureateTest/LaureateTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +560,7 @@
 				FEB54D7E18CA0B31007EB985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEB54D7F18CA0B31007EB985 /* Build configuration list for PBXNativeTarget "LaureateTestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +569,7 @@
 				FEB54D8118CA0B31007EB985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
